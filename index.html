@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Cyber Security Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#threats">Threats</a></li>
+                <li><a href="#prevention">Prevention</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="content-section">
+        <h2>Welcome to Cyber Security Awareness</h2>
+        <p>Learn about the latest threats and how to protect yourself online.</p>
+        <img src="images/cyber.jpg" alt="Cyber Security" class="main-img">
+    </section>
+
+    <section id="threats" class="content-section">
+        <h2>Common Threats</h2>
+        <div class="threat">
+            <img src="images/phishing.webp" alt="Phishing">
+            <p>Phishing: Fraudulent attempts to obtain sensitive information by disguising as a trustworthy entity.</p>
+        </div>
+        <div class="threat">
+            <img src="images/malware.webp" alt="Malware">
+            <p>Malware: Malicious software designed to harm, exploit, or otherwise compromise a computer system.</p>
+        </div>
+        <div class="threat">
+            <img src="images/ransomware.webp" alt="Ransomware">
+            <p>Ransomware: A type of malware that threatens to publish the victim's data or block access to it unless a ransom is paid.</p>
+        </div>
+    </section>
+
+    <section id="prevention" class="content-section">
+        <h2>Prevention Tips</h2>
+        <div class="tip">
+            <img src="images/password.jpg" alt="Strong Password">
+            <p>Use strong and unique passwords for different accounts.</p>
+        </div>
+        <div class="tip">
+            <img src="images/twofactor.webp" alt="Two-Factor Authentication">
+            <p>Enable two-factor authentication whenever possible.</p>
+        </div>
+        <div class="tip">
+            <img src="images/updates.jpg" alt="Updates">
+            <p>Keep your software and operating systems up to date.</p>
+        </div>
+    </section>
+
+    <section id="news" class="content-section">
+        <h2>Latest Cyber Security News</h2>
+        <div id="rss-feed"></div>
+        <div class="picture-wall">
+            <img src="images/news1.jpg" alt="News 1">
+            <img src="images/news2.jpg" alt="News 2">
+            <img src="images/news3.jpg" alt="News 3">
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cyber Security Awareness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
